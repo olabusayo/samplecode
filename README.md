@@ -1,6 +1,6 @@
-cppcode
+samplecode
 =======
 
-Some old c++ code
+Some old c++, sql code
 
-Here is some of the c++ code I wrote while in my undergrad courses.
+I've uploaded some of the code I wrote while in my undergrad courses.
