@@ -1,0 +1,12 @@
+objects = client.o server.o utils.o
+
+tcp: $(objects)
+	gcc -o tcp $(objects)
+
+client.o: client.c
+server.o: server.c
+utils.o: Utils.c
+
+.PHONY : clean
+clean:
+	rm tcp $(objects)
