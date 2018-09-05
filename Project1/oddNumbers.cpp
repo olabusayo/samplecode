@@ -3,9 +3,10 @@
 
 int * oddNumbers(int l, int r, int * result_count);
 
-/*int* oddNumbers(int l, int r, int* result_count) {
-	int size = 10 ^ 5, count = 0;
-	int * arr = calloc(sizeof(int), size);
+int* oddNumbers(int l, int r, int* result_count) {
+	int size = 100000, count = 0;
+	int * arr = (int *) calloc(sizeof(int), size);
+
 	if (arr == NULL) {
 		printf("ISSUE WITH CALLOC\n");
 	}
@@ -16,29 +17,25 @@ int * oddNumbers(int l, int r, int * result_count);
 			count++;
 		}
 	}
-	printf("%d\n", count);
-	for (int i = 0; i < count; i++) {
-		printf("%d ", arr[i]);
-	}
 
 	*result_count = count;
 	return arr;
 
 }
-*/
 
-int main() {
-	int l = 1, r = 5;
+
+/*int main() {
+	int l = 5000, r = 100000;
 	int result_count = 0;
 	int * arr = NULL;
 
 	printf("Hello World");
 
-	/*arr = oddNumbers(l, r, &result_count);
+	arr = oddNumbers(l, r, &result_count);
 
 	for (int i = 0; i < result_count; i++) {
 		printf("%d ", arr[i]);
-	}*/
+	}
 
 	return 0;
-}
+}*/
