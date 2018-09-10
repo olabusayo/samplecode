@@ -115,6 +115,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="climbTheHill.cpp" />
+    <ClCompile Include="consecutive.cpp" />
+    <ClCompile Include="minPower.cpp" />
+    <ClCompile Include="winner.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
